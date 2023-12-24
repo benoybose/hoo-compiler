@@ -1,0 +1,27 @@
+# Ignore build and output directories
+/build/
+/bin/
+/out/
+
+# Ignore compiled files
+*.o
+*.a
+*.so
+*.exe
+
+# Ignore CMake files
+CMakeFiles/
+CMakeCache.txt
+cmake_install.cmake
+Makefile
+
+# Ignore user-specific files
+*.user
+*.suo
+*.userprefs
+*.sln.docstates
+*.user
+
+# Ignore system-specific files
+*.DS_Store
+Thumbs.db
